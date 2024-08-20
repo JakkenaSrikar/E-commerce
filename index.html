@@ -1,0 +1,91 @@
+<html>
+<head>
+    <title>Processor Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Processor Paradise</h1>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <h2 style="font-size:65px;">Welcome to Processor Paradise</h2>
+    </section>
+	
+    <section class="categories" id="shop">
+        <h2>Shop by Brand</h2>
+        <div class="category">
+            <a href="intel.html"><img src="D:\Internship\E-commerce\images\Intel-Logo-2005-606x400.webp" alt="Intel Processors" height="80" width="100"></a><br><br><br>
+            <a href="intel.html" class="btn">Intel</a>
+        </div>
+        <div class="category">
+            <a href="amd.html"><img src="D:\Internship\E-commerce\images\communityIcon_1a8fhjs0ql9c1.webp" alt="AMD Processors" height="80" width="80"></a><br><br><br>
+            <a href="amd.html" class="btn">AMD</a>
+        </div>
+		<div class="category">
+            <a href="nvidia.html"><img src="D:\Internship\E-commerce\images\nvidia.svg" alt="Nvidia Processors" height="110" width="130"></a><br><br>
+            <a href="nvidia.html" class="btn">Nvidia</a>
+        </div>
+    </section>
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+		<hr>
+        <div class="product-card">
+            <img src="D:\Internship\E-commerce\images\intel_core_i9_2.webp" alt="Intel i9" height="120" width="120">
+            <h4>Intel i9</h4>
+            <p>$489.99</p>
+			<a href="cart.html" class="btn">Add to cart</a>
+        </div>
+        <div class="product-card">
+            <img src="D:\Internship\E-commerce\images\1890565-Ryzen-9-5900X__49276.1676572352.webp" alt="AMD Ryzen 9" height="120" width="140">
+            <h4>AMD Ryzen 9</h4>
+            <p>$449.99</p>
+			<a href="cart.html" class="btn">Add to cart</a>
+        </div>
+        <div class="product-card">
+            <img src="D:\Internship\E-commerce\images\intel_core_i7_2.webp" alt="Intel i7" height="120" width="120">
+            <h4>Intel i7</h4>
+            <p>$399.99</p>
+			<a href="cart.html" class="btn">Add to cart</a>
+        </div>
+        <div class="product-card">
+            <img src="D:\Internship\E-commerce\images\1890565-Ryzen-7-5800X__74623.1676572394.webp" alt="AMD Ryzen 7" height="120" width="140">
+            <h4>AMD Ryzen 7</h4>
+            <p>$349.99</p>
+			<a href="cart.html" class="btn">Add to cart</a>
+        </div>
+		<div class="product-card"><br>
+            <img src="D:\Internship\E-commerce\images\220px-GeForce_(2022).svg.webp" alt="Nvidia GeForce RT3050" height="80" width="130"><br><br>
+            <h4>Nvidia Geforce RT3050</h4>
+            <p>$349.99</p><br><br>
+			<a href="cart.html" class="btn">Add to cart</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>Processor Paradise is your one-stop shop for the latest and greatest in processor technology. Whether you're a gamer, a developer, or just need a reliable CPU for everyday tasks, we've got you covered.</p>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 Processor Paradise. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
